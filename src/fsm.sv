@@ -1,9 +1,9 @@
 module FSM
 (
-input logic clk, 
-input logic n_rst,
-input logic 1start,
-input logic 10start,
+input logic clk; 
+input logic n_rst;
+input logic 1start;
+input logic 10start;
 input logic pause;
 input logic clr;
 output logic 10_run_push;
